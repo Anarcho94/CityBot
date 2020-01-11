@@ -13,17 +13,19 @@ import res.test.resbot.repository.CityRepository;
 public class BotReceiving extends TelegramLongPollingBot {
 
     private static final String NOT_FOUND = "Такого города нет, но скоро будет :)";
+    private static final String BOT_TOKEN = "Token";
+    private static final String BOT_NAME = "Name";
 
     private final CityRepository cityRepository;
 
     @Override
     public String getBotToken() {
-        return "Bot token";
+        return BOT_TOKEN;
     }
 
     @Override
     public String getBotUsername() {
-        return "Bot name";
+        return BOT_NAME;
     }
 
     @Override
