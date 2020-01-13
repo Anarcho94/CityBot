@@ -5,10 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "Cities")
@@ -22,6 +19,7 @@ public class City {
     @GeneratedValue
     Long id;
 
+    @Column(unique = true)
     String name;
 
     String description;

@@ -1,12 +1,12 @@
-package res.test.resbot.service.impl;
+package res.test.resbot.service.city.impl;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import res.test.resbot.dto.CityDto;
 import res.test.resbot.entity.City;
 import res.test.resbot.repository.CityRepository;
-import res.test.resbot.service.CityService;
-import res.test.resbot.service.resolvers.CityDtoResolver;
+import res.test.resbot.service.city.CityService;
+import res.test.resbot.service.city.resolvers.CityDtoResolver;
 
 @Service
 @RequiredArgsConstructor

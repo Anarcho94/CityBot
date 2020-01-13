@@ -1,4 +1,4 @@
-package res.test.resbot.service.resolvers;
+package res.test.resbot.service.city.resolvers;
 
 import org.springframework.stereotype.Component;
 import res.test.resbot.dto.CityDto;

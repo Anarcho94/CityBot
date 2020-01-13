@@ -1,4 +1,4 @@
-package res.test.resbot.service;
+package res.test.resbot.service.city;
 
 import res.test.resbot.dto.CityDto;
 

@@ -3,7 +3,7 @@ package res.test.resbot.controller;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import res.test.resbot.dto.CityDto;
-import res.test.resbot.service.CityService;
+import res.test.resbot.service.city.CityService;
 
 @RestController
 @RequestMapping("/city")
